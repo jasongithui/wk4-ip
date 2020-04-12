@@ -1,20 +1,31 @@
 body {
-    font-family:'Amatic SC', cursive;
+    font-family:'Cormorant Garamond', serif;
 }
 #pizz {
     font-size: 50px;
 }
 
 .nav-word {
-    padding-left: 0%;
+    display: inline-block;
+    text-align: left;
     font-family: 'Pacifico', cursive;
 }
+
 .list-nav a {
  text-decoration: none;
  color: whitesmoke;
  letter-spacing: 5px;
  padding: 14px;
+ transition: 1.7s ease-out;
+
 }
+.list-nav a:hover {
+    color:rgb(3, 3, 3);
+    background-color: thistle;
+    transition: 1s ease-in;
+    border-radius: 17px;
+}
+
 .list-nav {
     font-family: 'Indie Flower', cursive;
 }
@@ -22,3 +33,15 @@ body {
     background: rgb(133, 22, 22);
     
 }
+#body-top {
+    background: url(images/pizaa.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 65px);
+
+    
+
+}
+  
+  
