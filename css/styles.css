@@ -1,0 +1,17 @@
+body {
+    font-family:'Amatic SC', cursive;
+}
+#pizz {
+    font-size: 50px;
+}
+
+.nav-word {
+    padding-left: 0%;
+    font-family: 'Pacifico', cursive;
+}
+.list-nav a {
+ text-decoration: none;
+}
+.list-nav {
+    font-family: 'Indie Flower', cursive;
+}
