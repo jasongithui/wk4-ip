@@ -11,7 +11,14 @@ body {
 }
 .list-nav a {
  text-decoration: none;
+ color: whitesmoke;
+ letter-spacing: 5px;
+ padding: 14px;
 }
 .list-nav {
     font-family: 'Indie Flower', cursive;
+}
+.navbar{
+    background: rgb(133, 22, 22);
+    
 }
