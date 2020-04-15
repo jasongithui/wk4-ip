@@ -4,50 +4,55 @@ html {
 body {
     font-family:'Cormorant Garamond', serif;
 }
+/*--Top Navbar--*/
 #nav1 {
     background-color: rgb(15, 10, 10);
     position: sticky;
     opacity: 0.5;
     filter:(opacity=50);
+    transition: 3s ease-out;
 }
+#nav1:hover {
+    background-color: black;
+    opacity: 0.9;
+    transition: all 1.5s ease-in;
+}
+/*--Navbar icon animation--*/
 #pizz {
     font-size: 50px;
-    color: rgb(248, 245, 245);
+    color: rgb(230, 109, 149);
 }
-
-.nav-word {
-    display: inline-block;
-    text-align: left;
-    font-family: 'Pacifico', cursive;
-    
-}
+/*--Navbar links--*/
 .list-nav a {
  text-decoration: none;
- color: rgb(248, 242, 242);
+ color: white;
  letter-spacing: 5px;
  padding: 14px;
  transition: 1.7s ease-out;
 
 }
 .list-nav a:hover {
-    color:rgb(3, 3, 3);
-    background-color: thistle;
+    color:black;
+    background-color: rgb(231, 154, 179);
     transition: 1s ease-in;
     border-radius: 17px;
 }
 .list-nav {
     font-family: 'Indie Flower', cursive;
 }
+/*--header image--*/
 header {
-    background: url(images/pizaa.jpeg);
+    background: url(images/pizza2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
     -webkit-filter: grayscale(100%);
     filter: grayscale(60%);
-    
+}
+/*--Header text--*/
+.primary{
+    color:rgb(192, 168, 176);
 }
 
-  
   
