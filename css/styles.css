@@ -1,19 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family:'Cormorant Garamond', serif;
 }
+#nav1 {
+    background-color: rgb(15, 10, 10);
+    position: sticky;
+    opacity: 0.5;
+    filter:(opacity=50);
+}
 #pizz {
     font-size: 50px;
+    color: rgb(248, 245, 245);
 }
 
 .nav-word {
     display: inline-block;
     text-align: left;
     font-family: 'Pacifico', cursive;
+    
 }
-
 .list-nav a {
  text-decoration: none;
- color: whitesmoke;
+ color: rgb(248, 242, 242);
  letter-spacing: 5px;
  padding: 14px;
  transition: 1.7s ease-out;
@@ -25,23 +35,19 @@ body {
     transition: 1s ease-in;
     border-radius: 17px;
 }
-
 .list-nav {
     font-family: 'Indie Flower', cursive;
 }
-.navbar{
-    background: rgb(133, 22, 22);
-    
-}
-#body-top {
+header {
     background: url(images/pizaa.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: calc(100vh - 65px);
-
+    min-height: 100vh;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(60%);
     
-
 }
+
   
   
