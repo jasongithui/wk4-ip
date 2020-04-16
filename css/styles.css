@@ -181,6 +181,29 @@ header {
       opacity: 0.9 ;
       filter:(opacity=50);
   }
+.order-now {
+    color: rgb(158, 7, 7);
+    font-size: 50px;
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+}
+.order-next {
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+.select {
+    color: rgb(184, 53, 53);
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
 
 
 
