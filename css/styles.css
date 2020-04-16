@@ -145,8 +145,10 @@ header {
 .display-menu {
     color:wheat;
     text-align: center;
-    
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
+
 /*--Order section--*/
 .col-md-4{
     border-radius: 10%;
