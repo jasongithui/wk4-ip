@@ -188,6 +188,8 @@ header {
     font-style: normal;
     font-weight: 200;
     font-display: swap;
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
 .order-next {
     color: white;
@@ -203,9 +205,31 @@ header {
     font-style: normal;
     font-weight: 400;
     font-display: swap;
+    padding-top: 10px;
 }
 
-
-
-
+#information {
+    color:white;
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    font-size: 23px;
+}
+.choise {
+    color: rgb(184, 53, 53);
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+.custom-control-label {
+    color:white;
+}
+.pizzatable {
+    color:white;
+}
+#addedprice {
+    font-size: 25px;
+}
   
