@@ -131,7 +131,22 @@ header {
   }
 
 /*--section1--*/
-
+.section1{
+    background-color: black;
+}
+.text-menu {
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond';
+}
+.price {
+    color: maroon;
+}
+.display-menu {
+    color:wheat;
+    text-align: center;
+    
+}
 
 
 
