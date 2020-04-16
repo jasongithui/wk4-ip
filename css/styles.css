@@ -5,14 +5,19 @@ body {
     font-family:'Cormorant Garamond', serif;
 }
 /*--Top Navbar--*/
-#nav1 {
-    background-color: rgb(15, 10, 10);
+.navbar {
+    overflow: hidden;
     position: sticky;
+    top: 0;
+    width: 100%;
+  }
+#myNavbar {
+    background-color: rgb(15, 10, 10);
     opacity: 0.5;
     filter:(opacity=50);
     transition: 3s ease-out;
 }
-#nav1:hover {
+#myNavbar:hover {
     background-color: black;
     opacity: 0.9;
     transition: all 1.5s ease-in;
@@ -29,7 +34,6 @@ body {
  letter-spacing: 5px;
  padding: 14px;
  transition: 1.7s ease-out;
-
 }
 .list-nav a:hover {
     color:black;
@@ -293,7 +297,6 @@ header {
     font-size: 55px;
     padding-top: 40px;
     padding-bottom: 15px;
-
 }
 .foot1 {
     font-size: 19px;
@@ -302,5 +305,6 @@ header {
     color: maroon;
     font-size: 20px;
 }
+
 
   

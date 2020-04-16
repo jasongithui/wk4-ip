@@ -14,68 +14,64 @@
      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cormorant+Garamond:ital,wght@1,500&family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
      </head>
 <header>
-      <nav class="navbar navbar-default navbar-fixed-top transparent" id="nav1">
-          <div id="pizz" class="fas"></div>
+      <div class="navbar navbar-default  navbar-fixed-top transparent" id="myNavbar">
+           <div id="pizz" class="fas"></div>
               <div class="list-nav" id="myNavbar">
-                <a href="#home" class="bar-item button">HOME</a>
-                <a href="#menu" class="bar-item button">MENU</a>
-                <a href="#about" class="bar-item button">ABOUT</a>
-                <a href="#myMap" class="bar-item button">CONTACT</a>
+                 <a class="active" href="#home" class="bar-item button">HOME</a>
+                 <a href="#menu" class="bar-item button">MENU</a>
+                 <a href="#contact" class="bar-item button">CONTACT</a>
+                 <a href="#findus" class="bar-item button">SOCIAL</a>
               </div>
           </div>
-      </nav>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="banner text-center">
-                <h1 class="display-1 text-capitalize w-50 mx-auto">
-                  <small>Eatery Yumm</small> <strong class="primary">Pizza</strong></h1> 
-                    <button class="menu"> <a href="#menu" ><h2>Wanna see the menu</h2></a></button>
-                       <div class="icon-down">
-                        <i class="fas fa-arrow-circle-down bounce" id="iconDown"></i>
-                        </div>
-                   </div>
-                </div>
-             </div>
-          </div>
        </div>
+          <div class="container" id="home">
+             <div class="row">
+                <div class="col">
+                   <div class="banner text-center">
+                     <h1 class="display-1 text-capitalize w-50 mx-auto">
+                     <small>Eatery Yumm</small> <strong class="primary">Pizza</strong></h1> 
+                        <button class="menu"> <a href="#menu" ><h2>Wanna see the menu</h2></a>
+                        </button>
+                           <div class="icon-down">
+                             <i class="fas fa-arrow-circle-down bounce" id="iconDown"></i>
+                          </div>
+                    </div>
+                </div>
+            </div>
+         </div>
   </header>
 <body>
+<!--The menu section-->
   <div class="section1">
       <section>
-      <div class="container" id="menu">
-        <div class="content">
-        
-          <h1 class="display-menu">THE MENU</h1>
-          <div class="padd-menu">
-          <div class="row center">
-            <div id="Pizza" class="container menu padding-32 white">
-            <h1><b>Periperi</b> <span class="price">$12.50</span></h1>
-            <p class="text-menu">Fresh tomatoes, fresh mozzarella, fresh basil</p>
-            <hr>
-         
-            <h1><b>Raspberry Dessert Pizza</b> <span class="price">$15.50</span></h1>
-            <p class="text-menu">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg,seedless Raspberry Crimpson)</p>
-            <hr>
-            
-            <h1><b>Chicken Tikka</b> <span class="price">$17.00</span></h1>
-            <p class="text-menu">Fresh tomatoes, mozzarella, chicken, onions</p>
-            <hr>
-      
-            <h1><b>Sunchoke pineapple pizza</b> <span class="price">$16.50</span></h1>
-            <p class="text-menu">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
-            <hr>
-      
-            <h1><b>Chicken Alfredo pizza</b> <span class="price">$20.00</span></h1>
-            <p class="text-menu">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
-            <hr>
-      
-            <h1><b>Buffalo chicken Sticks pizza</b> <span class="price">$21.50</span></h1>
-            <p class="text-menu">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
-          </div>
-        </div>
-      </div>
-  </div>
+        <div class="container" id="menu">
+          <div class="content">
+            <h1 class="display-menu">THE MENU</h1>
+              <div class="padd-menu">
+                <div class="row center">
+                  <div id="Pizza" class="container menu padding-32 white">
+                    <h1><b>Periperi</b> <span class="price">$---</span>
+                    </h1>
+                      <p class="text-menu">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                       <hr>
+                        <h1><b>Raspberry Dessert Pizza</b> <span class="price">$---</span></h1>
+                          <p class="text-menu">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg,seedless Raspberry Crimpson)</p>
+                       <hr>
+                         <h1><b>Chicken Tikka</b> <span class="price">$---</span></h1>
+                           <p class="text-menu">Fresh tomatoes, mozzarella, chicken, onions</p>
+                       <hr>
+                         <h1><b>Sunchoke pineapple pizza</b> <span class="price">$---</span></h1>
+                           <p class="text-menu">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                       <hr>
+                         <h1><b>Chicken Alfredo pizza</b> <span class="price">$---</span></h1>
+                           <p class="text-menu">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                       <hr>
+                         <h1><b>Buffalo chicken Sticks pizza</b> <span class="price">$---</span></h1>
+                           <p class="text-menu">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+                    </div>
+                </div>
+             </div>
+         </div>
     </section>  
   </div>
   <!--Order section-->
@@ -84,7 +80,7 @@
         <div class="padd-order">
         <div class="container order" id="make-order">
           <div class="order-overlay">
-            <div class="controls-top text-center" id="Order-now"> 
+            <div class="controls-top text-center" id="orderNow"> 
               <h2 class="order-now">Order Here</h2>
             </div>
           
@@ -199,7 +195,7 @@
      <!--Contact section-->
      <div class="section3">
        <section>
-        <div class="container">
+        <div class="container" id="contact">
           
             <h2 class="foot">CONTACTS</h2>
              <p class="foot1">If you have any questions,do not hesitate to ask them?</p>
@@ -214,7 +210,7 @@
 <div class="section4">
 <section>
   <footer>
-   <div class="container">
+   <div class="container" id="findus">
     <h5 class="icon">Find Us On</h5>
      <div class="social">
       <i class="fab fa-facebook-square"></i>
@@ -228,23 +224,9 @@
     <i class="far fa-copyright"></i> Jason Githui,inc
     </div>
    </div>
-
    </footer>
-
  </section>
-  
 </div>
-
-
-
-
-
-
-
-
-
-
-
     <!--jquery-->
     <script src="js/jquery-3.5.0.min.js"></script>
     <!--bootstrap js-->
