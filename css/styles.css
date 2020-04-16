@@ -250,13 +250,57 @@ header {
 /*--section3--*/
 .section3 {
     background-color: wheat;
-    min-height: 250px;
+    min-height: 300px;
 }
+
 /*--section4--*/
 .section4 {
     background-color: black;
-    min-height: 200px;
+    min-height: 250px;
 }
 
- 
+.icon {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+.social {
+    padding-left: 42%;
+    color: wheat;
+    font-size: 27px;
+}
+.fab {
+    transition: 2s ease-out;
+}
+.fab:hover {
+    color:maroon;
+    transition: 0.4s ease-in;
+}
+.copy {
+    padding-left: 42%;
+    color: wheat;
+    font-size: 15px;
+    padding-top: 70px;
+    font-size: 20px;
+}
+.foot {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+
+}
+.foot1 {
+    font-size: 19px;
+}
+.fa {
+    color: maroon;
+    font-size: 20px;
+}
+
   
