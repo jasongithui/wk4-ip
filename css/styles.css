@@ -154,10 +154,11 @@ header {
 
 /*--Order section--*/
 .section2 {
-    background: url(images/pizaa.jpeg);
+    background: url(images/pizza2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: center;
+    background-attachment: fixed;
 }
 .col-md-4{
     border-radius: 10%;
@@ -168,6 +169,19 @@ header {
     padding-left: 10%;
     padding-right: 10%;
   }
+  .container.order {
+      border: solid 0.5px grey;
+      border-radius: 30px;
+      background-color: rgb(5, 5, 5) ;
+      
+  }
+  .padd-order {
+      padding-top: 50px;
+      padding-bottom: 70px;
+      opacity: 0.9 ;
+      filter:(opacity=50);
+  }
+
 
 
 
