@@ -249,7 +249,13 @@ header {
 }
 /*--section3--*/
 .section3 {
-    background: 
+    background-color: wheat;
+    min-height: 250px;
+}
+/*--section4--*/
+.section4 {
+    background-color: black;
+    min-height: 200px;
 }
 
  
