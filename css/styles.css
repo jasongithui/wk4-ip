@@ -54,5 +54,82 @@ header {
 .primary{
     color:rgb(192, 168, 176);
 }
+.display-1 {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    border-bottom: dotted 6px rgb(235, 228, 235);
+}
+.banner h1 {
+    font-family: ;
+}
+/*--Menu link--*/
+.menu a  {
+    text-decoration: none;
+}
+.menu {
+    background-color: black;
+    border: solid 2px;
+    border-radius: 17px;
+    opacity: 0.9;
+    filter:(opacity=50);
+    transition: 2s ease-in;
+}
+.menu a h2 {
+    color:white;
+    transition: 1.5s ease-out;
+}
+.menu a h2:hover {
+    color:black;
+    transition: 1.5s ease-in-out;
+}
+.menu:hover {
+    background-color: rgb(177, 157, 157);
+    opacity:1;
+    transition: 2s ease-out;
+}
+/*--icon down--*/
+.bounce {
+    font-size: 40px;
+    color: rgb(179, 174, 179);
+    padding-top: 40px;
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 1s infinite linear;
+    -o-animation: bounce 1s infinite linear;
+    -webkit-animation: bounce 1s infinite linear;
+    animation: bounce 1s infinite linear;
+  }
+  @-webkit-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-moz-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-o-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-ms-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+
+
 
   
