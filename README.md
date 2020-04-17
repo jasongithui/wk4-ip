@@ -1,4 +1,4 @@
-# Delani Studio
+# Eatery Yumm  Pizza
 #### By **Jason Githui**
 ![Homepage Screen shot](screenshots/screen1.jpg)
 ## Description
@@ -13,7 +13,7 @@ To view,click this link https://jasongithui.github.io/wk4-ip/
 There are no known Bugs.
 ## Technologies Used
 ![Tech](screenshots/icon.jpg)
-Language used is HTML, CSS, JAVASCRIPT AND JQUERY.Styling initialised by Material Design Bootstrap and Google fonts.
+Language used is HTML, CSS, JAVASCRIPT AND JQUERY.Styling initialised by Bootstrap and Google fonts.
 ## Support and contact details
 For any questions, use my email jasongithui@gmail.com.
 ### License
