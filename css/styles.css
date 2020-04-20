@@ -80,14 +80,11 @@ header {
     color: white;
     cursor: pointer;
     padding: 5px;
-    
   }
-
-
-
-
-
-
+  .fa-sort-up:hover {
+    color: rgb(12, 11, 11);
+    background-color: rgb(177, 157, 157);
+  }
 /*--Menu link--*/
 .menu a  {
     text-decoration: none;
