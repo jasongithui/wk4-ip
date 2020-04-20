@@ -291,8 +291,12 @@ header {
 }
 .social {
     padding-left: 42%;
-    color: wheat;
     font-size: 27px;
+    text-decoration: none;
+}
+.social a {
+    text-decoration: none;
+    color: white;
 }
 .fab {
     transition: 2s ease-out;
@@ -300,6 +304,7 @@ header {
 .fab:hover {
     color:maroon;
     transition: 0.4s ease-in;
+    text-decoration: none;
 }
 .copy {
     padding-left: 42%;
