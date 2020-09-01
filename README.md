@@ -5,12 +5,14 @@
 This is an exclusive website project that satisfies customers needs of ideal pizza blends with a fine touch of high class ingredients where you get deliveries at your door step at an affordable price.
 To view,click this link https://jasongithui.github.io/wk4-ip/
 ## Setup/Installation Requirements
-* Create a folder and initialize git
-* Create an online repository and push the local to the remote.
-* Fork the project to your own repository
+* Create a folder
+* clone this,
+  git clone https://github.com/jasongithui/wk4-ip.git
+* Open index.html in a browser.
 * Enjoy the work.
 ## Known Bugs
 There are no known Bugs.
+If found,please contact me as soon as possible
 ## Technologies Used
 ![Tech](screenshots/icon.jpg)
 Language used is HTML, CSS, JAVASCRIPT AND JQUERY.Styling initialised by Bootstrap and Google fonts.
